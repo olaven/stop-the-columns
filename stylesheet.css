@@ -1,0 +1,49 @@
+body{
+  overflow: hidden;
+  background-color: rgb(0, 153, 204);
+}
+#limit{
+  position: relative;
+  width: 800px;
+  height: 25px;
+  left: 55px;
+  background-color: grey;
+  z-index: 2;
+}
+#startBtn{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: red;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  top: 250px;
+  left: 370px;
+  z-index: 2;
+}
+.column{
+  position: relative;
+  background-color: orange;
+  display: inline-block;
+  height: 200px;
+  width: 50px;
+  margin: 30px;
+}
+#column1{
+  left: 100px;
+}
+#column2{
+  left: 300px;
+}
+#column3{
+  left: 500px;
+}
+#timeArea{
+  position: relative;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 50px;
+  top: -200px;
+  left: 550px;
+}
